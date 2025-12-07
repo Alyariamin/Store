@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+django-debug-toolbar = "*"
+mysqlclient = "*"
+djangorestframework = "*"
+django-filter = "*"
+djoser = "*"
+djangorestframework-simplejwt = "*"
+redis = "*"
+celery = "*"
+flower = "*"
+locust = "*"
+django-redis = "*"
+drf-nested-routers = "*"
+
+[dev-packages]
+autopep8 = "*"
+pytest = "*"
+pytest-django = "*"
+model-bakery = "*"
+locust = "*"
+
+[requires]
+python_version = "3.13"
