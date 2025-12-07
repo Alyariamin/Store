@@ -10,7 +10,6 @@ from rest_framework.permissions import IsAuthenticated,AllowAny
 from store.pagination import DefaultPagination
 from .models import Cart, CartItem, Collection, Customer, Order, Product, Review
 from .serializers import AddCartItemSerializer, CartItemSerializer, CartSerializer, CollectionSerializer, CreateOrderSerializer, CustomerSerializer, OrderSerializer, ProductSerializer, ReviewSerializer, UpdateCartItemSerializer, UpdateOrderSerializer
-
 class ProductViewSet(ModelViewSet):
     queryset = Product.objects.all()
     serializer_class = ProductSerializer
